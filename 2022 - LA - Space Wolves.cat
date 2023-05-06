@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ca15-13de-89cb-bbb2" name="LA -   VI: Space Wolves" revision="27" battleScribeVersion="2.03" authorName="Mr_Dark, UrsinePatriarch" authorContact="BSData Developers Discord" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="52" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ca15-13de-89cb-bbb2" name="LA -   VI: Space Wolves" revision="28" battleScribeVersion="2.03" authorName="Mr_Dark, UrsinePatriarch" authorContact="BSData Developers Discord" library="false" gameSystemId="28d4-bd2e-4858-ece6" gameSystemRevision="57" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
     <entryLink id="ff53-69d9-ec0b-9caa" name="   VI: Space Wolves" hidden="false" collective="false" import="false" targetId="4916-965e-8339-44f6" type="selectionEntry">
       <modifiers>
@@ -4322,7 +4322,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="5fbf-fd27-1a5c-00cd" name="2) Dedicated Transport:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="5fbf-fd27-1a5c-00cd" name="3) Dedicated Transport:" hidden="false" collective="false" import="true">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -4561,37 +4561,6 @@
                 <infoLink id="e480-d8fd-c483-ab4c" name="Grey Slayer" hidden="false" targetId="a9da-5857-c0e5-aa5c" type="profile"/>
               </infoLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup id="9c8b-06cd-57f8-921a" name="4) May take:" hidden="false" collective="false" import="true">
-                  <entryLinks>
-                    <entryLink id="cda8-bb14-4fca-8692" name="Legion Vexilla" hidden="false" collective="false" import="true" targetId="21b1-2a90-9826-1782" type="selectionEntry">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf38-4431-7de3-e486" type="max"/>
-                        <constraint field="selections" scope="4bbf-f3df-7b18-4a49" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0730-148c-a481-0718" type="max"/>
-                      </constraints>
-                      <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10.0"/>
-                      </costs>
-                    </entryLink>
-                    <entryLink id="5343-4a66-5c51-9020" name="Nuncio-Vox" hidden="false" collective="false" import="true" targetId="005e-aae6-ddac-bb45" type="selectionEntry">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1939-1f0c-d4e0-555d" type="max"/>
-                        <constraint field="selections" scope="4bbf-f3df-7b18-4a49" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b876-7a58-b9b2-344c" type="max"/>
-                      </constraints>
-                      <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10.0"/>
-                      </costs>
-                    </entryLink>
-                    <entryLink id="c388-fd8d-3c79-988c" name="Augury Scanner" hidden="false" collective="false" import="true" targetId="67ee-7338-3b74-04b4" type="selectionEntry">
-                      <constraints>
-                        <constraint field="selections" scope="4bbf-f3df-7b18-4a49" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fd6b-6711-c618-27f5" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05e4-4ca8-c17e-fa78" type="max"/>
-                      </constraints>
-                      <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10.0"/>
-                      </costs>
-                    </entryLink>
-                  </entryLinks>
-                </selectionEntryGroup>
                 <selectionEntryGroup id="eab9-00c1-865d-7b0e" name="2) Melee Options:" hidden="false" collective="false" import="true" defaultSelectionEntryId="cef9-cc05-66fc-915b">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b80-dca0-a3b1-460e" type="min"/>
@@ -5025,6 +4994,26 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="8f91-2df0-91a2-d2c2" name="2) One Grey Slayer may take:" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="aa25-5963-e390-f3d9" name="Legion Vexilla" hidden="false" collective="false" import="true" targetId="21b1-2a90-9826-1782" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c55-c5bd-1f2f-26a5" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="12fa-6c22-bc3f-a375" name="Nuncio-Vox" hidden="false" collective="false" import="true" targetId="005e-aae6-ddac-bb45" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf63-d349-e9e0-1a6d" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="adf1-5261-0138-f50a" name="Power Armour" hidden="false" collective="false" import="true" targetId="2d9d-480e-7c14-1a6f" type="selectionEntry">
@@ -5314,7 +5303,7 @@
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="b8d5-b1c1-a109-12b4" name="3) Dedicated Transport:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="b8d5-b1c1-a109-12b4" name="4) Dedicated Transport:" hidden="false" collective="false" import="true">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -5418,7 +5407,7 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="8394-4c83-24a2-e0ca" name="2) The entire unit may take one of the following options:" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="8394-4c83-24a2-e0ca" name="3) The entire unit may take one of the following options:" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1783-bf7c-feb8-d7aa" type="max"/>
           </constraints>
@@ -5575,40 +5564,6 @@
                 <infoLink id="854e-4e5c-ad06-96ca" name="Grey Stalker" hidden="false" targetId="4d62-74ee-7111-a22c" type="profile"/>
               </infoLinks>
               <selectionEntryGroups>
-                <selectionEntryGroup id="5e09-8755-2cb5-f9d3" name="4) May take:" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43d3-383e-df4e-bf75" type="max"/>
-                  </constraints>
-                  <entryLinks>
-                    <entryLink id="d549-7eb5-5b79-6fa1" name="Legion Vexilla" hidden="false" collective="false" import="true" targetId="21b1-2a90-9826-1782" type="selectionEntry">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d691-708b-c46b-2f7c" type="max"/>
-                        <constraint field="selections" scope="4dbc-6266-853a-5114" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="33cc-96d5-3ab7-3fa6" type="max"/>
-                      </constraints>
-                      <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10.0"/>
-                      </costs>
-                    </entryLink>
-                    <entryLink id="19c9-d689-6495-1a82" name="Nuncio-Vox" hidden="false" collective="false" import="true" targetId="005e-aae6-ddac-bb45" type="selectionEntry">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1461-e7e8-575f-1b93" type="max"/>
-                        <constraint field="selections" scope="4dbc-6266-853a-5114" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="feb9-ef97-e342-8305" type="max"/>
-                      </constraints>
-                      <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10.0"/>
-                      </costs>
-                    </entryLink>
-                    <entryLink id="ad50-9550-209a-7c6f" name="Augury Scanner" hidden="false" collective="false" import="true" targetId="67ee-7338-3b74-04b4" type="selectionEntry">
-                      <constraints>
-                        <constraint field="selections" scope="4dbc-6266-853a-5114" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d2ff-cb02-9ebd-9c60" type="max"/>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f42-e206-8eb6-78ad" type="max"/>
-                      </constraints>
-                      <costs>
-                        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10.0"/>
-                      </costs>
-                    </entryLink>
-                  </entryLinks>
-                </selectionEntryGroup>
                 <selectionEntryGroup id="26a9-2607-a964-ed94" name="1) Melee Options:" hidden="false" collective="false" import="true" defaultSelectionEntryId="fe60-df61-7f5c-00f0">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd35-4c93-3144-e5f0" type="min"/>
@@ -5878,6 +5833,26 @@
               </costs>
             </selectionEntry>
           </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="0a9a-b138-5e00-6b9e" name="2) One Grey Stalker may take:" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="0610-1046-bd9a-d051" name="Legion Vexilla" hidden="false" collective="false" import="true" targetId="21b1-2a90-9826-1782" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10d3-15f1-41e8-bda9" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="3ebd-2b74-c666-8406" name="Nuncio-Vox" hidden="false" collective="false" import="true" targetId="005e-aae6-ddac-bb45" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a69-e505-e2a1-8f00" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
